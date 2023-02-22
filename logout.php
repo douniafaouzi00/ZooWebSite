@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	$_SESSION["email"]="guest";
+	$_SESSION["password"]="guest";
+	$_SESSION["priority"]="guest";
+    $_SESSION["autorizzato"]=false;
+?>
+<script>
+	location.href="index.php";
+</script>
